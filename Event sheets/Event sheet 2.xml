@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 2</name>
+    <events>
+        <variable bookmark="1" constant="0" name="SCORE" sid="7522559246805326" static="0" type="number">0</variable>
+        <variable constant="0" name="SCROLL" sid="8859638103497009" static="0" type="number">5</variable>
+        <variable constant="0" name="OBSTACULO" sid="5233811678971628" static="0" type="number">1.91</variable>
+        <event-block sid="4694945640582343">
+            <conditions>
+                <condition id="1" name="On any click" sid="5053943637317681" type="Mouse" />
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="9" name="Set vector Y" sid="761160748454003" type="bird3">
+                    <param id="0" name="Vector Y">bird3.Y-700</param>
+                </action>
+                <action id="-8" name="Set angle" sid="9487475111392885" type="bird3">
+                    <param id="0" name="Angle">320</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2279012024553754">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="3500781616709446" type="bird3">
+                    <param id="0" name="Object">tubo2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="4845251891434291" type="Audio">
+                    <param id="0" name="Tag">&quot;opening&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="9904455888094693" type="System">
+                    <param id="0" name="Layout">Layout 3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7953102971606657">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4264794258699106" type="bird3">
+                    <param id="0" name="Object">tubo</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="5081797292373723" type="Audio">
+                    <param id="0" name="Tag">&quot;opening&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="4217811610449911" type="System">
+                    <param id="0" name="Layout">Layout 3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6818165857716494">
+            <conditions>
+                <condition id="-4" name="Is outside layout" sid="1387654781949988" type="bird3" />
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="9218570163928146" type="Audio">
+                    <param id="0" name="Tag">&quot;opening&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="9733396210075314" type="System">
+                    <param id="0" name="Layout">Layout 3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5305383825339591">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="2897054057934554" type="System" />
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="7187869185266082" type="tubo2">
+                    <param id="0" name="X">tubo2.X-SCROLL</param>
+                </action>
+                <action id="-1" name="Set X" sid="8820849177429036" type="TiledBackground2">
+                    <param id="0" name="X">TiledBackground2.X-SCROLL</param>
+                </action>
+                <action id="-1" name="Set X" sid="4485671941749188" type="TiledBackground3">
+                    <param id="0" name="X">TiledBackground3.X-SCROLL</param>
+                </action>
+                <action id="-1" name="Set X" sid="2519080169373296" type="tubo">
+                    <param id="0" name="X">tubo.X-SCROLL</param>
+                </action>
+                <action id="4" name="Set animation" sid="3552879244961982" type="bird3">
+                    <param id="0" name="Animation">&quot;Parpadeo&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5036972154687787">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="8835617805845344" type="TiledBackground2">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="X co-ordinate">-560</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="1966165152077264" type="TiledBackground2">
+                    <param id="0" name="X">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7171221342838777">
+            <conditions>
+                <condition id="-1" name="Compare X" sid="5333209068138259" type="TiledBackground3">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="X co-ordinate">-410</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="2366940190932372" type="TiledBackground3">
+                    <param id="0" name="X">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7556677118801004">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="613696906446521" type="System">
+                    <param id="0" name="Interval (seconds)">OBSTACULO</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="5835818760284316" type="System">
+                    <param id="0" name="Object to create">tubo2</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">400</param>
+                    <param id="3" name="Y">random(50, -250)</param>
+                </action>
+                <action id="-3" name="Create object" sid="3237060732556966" type="System">
+                    <param id="0" name="Object to create">tubo</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">400</param>
+                    <param id="3" name="Y">tubo2.Y+ 700</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="7920827277417997" type="tubo">
+                    <param id="0" name="Instance variable">Scored</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8428790276930596">
+            <conditions />
+            <actions />
+        </event-block>
+        <event-block sid="5948754039139136">
+            <conditions>
+                <condition id="-13" name="Is between angles" sid="8401552341981713" type="bird3">
+                    <param id="0" name="First angle">1</param>
+                    <param id="1" name="Second angle">360</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-8" name="Set angle" sid="6897470308157944" type="bird3">
+                    <param id="0" name="Angle">bird3.Angle + 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6323583573113416">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="3700621728331373" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="3617170023015122" type="CERO">
+                    <param id="0" name="Text">SCORE</param>
+                </action>
+                <action id="5" name="Set web font" sid="9884309757353647" type="CERO">
+                    <param id="0" name="Family name">&quot;Erica Font&quot;</param>
+                    <param id="1" name="CSS URL">&quot;http://fonts.googleapis.com/css?family=Erica+One&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="460654112595998" type="Score">
+                    <param id="0" name="Family name">&quot;Erica &quot;</param>
+                    <param id="1" name="CSS URL">&quot;http://fonts.googleapis.com/css?family=Erica+One&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8347430875751879">
+            <conditions>
+                <condition disabled="1" id="-8" name="Is boolean instance variable set" sid="9623538953286087" type="tubo">
+                    <param id="0" name="Instance variable">Scored</param>
+                </condition>
+                <condition id="-1" name="Compare X" sid="6372395420287656" type="tubo">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="X co-ordinate">bird3.X</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="9569057567737233" type="System">
+                    <param id="0" name="Variable">SCORE</param>
+                    <param id="1" name="Value">0.0001</param>
+                </action>
+                <action id="0" name="Set text" sid="1795633591553142" type="CERO">
+                    <param id="0" name="Text">SCORE</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="2755372360785223" type="tubo">
+                    <param id="0" name="Instance variable">Scored</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2995080711188986">
+            <conditions />
+            <actions />
+        </event-block>
+        <event-block sid="3029619880927235">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="352739347289404" type="System" />
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="2844337417992375">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="3009704731947708" type="System">
+                    <param id="0" name="Variable">SCORE</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">0.56</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="8150653162007504" type="System">
+                    <param id="0" name="Variable">OBSTACULO</param>
+                    <param id="1" name="Value">1.6</param>
+                </action>
+                <action id="-9" name="Destroy" sid="9607209107961196" type="cooltext21" />
+                <action id="-1" name="Set X" sid="5243246105256297" type="cooltext22">
+                    <param id="0" name="X">86</param>
+                </action>
+                <action id="-2" name="Set Y" sid="2558821945653757" type="cooltext22">
+                    <param id="0" name="Y">58</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="430464221539621">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="3653141935346022" type="System">
+                    <param id="0" name="Variable">SCORE</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="8691925109158618" type="System">
+                    <param id="0" name="Variable">OBSTACULO</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="5249110217023282" type="cooltext22" />
+                <action id="-1" name="Set X" sid="7065471248034113" type="cooltext23">
+                    <param id="0" name="X">86</param>
+                </action>
+                <action id="-2" name="Set Y" sid="8031508144130312" type="cooltext23">
+                    <param id="0" name="Y">58</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3127619867229356">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="5969723755671022" type="System">
+                    <param id="0" name="Variable">SCORE</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">1.45</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="7321052078358237" type="System">
+                    <param id="0" name="Variable">OBSTACULO</param>
+                    <param id="1" name="Value">0.8</param>
+                </action>
+                <action id="-9" name="Destroy" sid="9081759241715693" type="cooltext23" />
+                <action id="-1" name="Set X" sid="7648958101375847" type="cooltext24">
+                    <param id="0" name="X">86</param>
+                </action>
+                <action id="-2" name="Set Y" sid="4718136603194587" type="cooltext24">
+                    <param id="0" name="Y">58</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="129401260338774">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="1007407409858543" type="System">
+                    <param id="0" name="Variable">SCORE</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">1.95</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="6853934297823135" type="System">
+                    <param id="0" name="Variable">OBSTACULO</param>
+                    <param id="1" name="Value">0.60</param>
+                </action>
+                <action id="-9" name="Destroy" sid="6515205732744267" type="cooltext24" />
+                <action id="-1" name="Set X" sid="9247380360418936" type="cooltext25">
+                    <param id="0" name="X">86</param>
+                </action>
+                <action id="-2" name="Set Y" sid="3419703546264868" type="cooltext25">
+                    <param id="0" name="Y">58</param>
+                </action>
+                <action id="-1" name="Set X" sid="4403564696097605" type="paisaje">
+                    <param id="0" name="X">321</param>
+                </action>
+                <action id="-2" name="Set Y" sid="1328819661638777" type="paisaje">
+                    <param id="0" name="Y">262.5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4133347059872207">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="7178357895501427" type="System">
+                    <param id="0" name="Variable">SCORE</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">2.5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Stop" sid="5694713504808679" type="Audio">
+                    <param id="0" name="Tag">&quot;opening&quot;</param>
+                </action>
+                <action id="0" name="Play" sid="6276163737662055" type="Audio">
+                    <param id="0" name="Audio file">The_Final_March</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;opening2&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="2782513062753641" type="System">
+                    <param id="0" name="Variable">OBSTACULO</param>
+                    <param id="1" name="Value">0.56</param>
+                </action>
+                <action id="-1" name="Set X" sid="6574321070360623" type="cooltext26">
+                    <param id="0" name="X">86</param>
+                </action>
+                <action id="-2" name="Set Y" sid="8736609433147964" type="cooltext26">
+                    <param id="0" name="Y">58</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5873431910853293">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="465517828445619" type="System">
+                    <param id="0" name="Variable">SCORE</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="8506923061531476" type="cooltext26" />
+                <action id="-9" name="Set value" sid="2826941759919616" type="System">
+                    <param id="0" name="Variable">OBSTACULO</param>
+                    <param id="1" name="Value">0.45</param>
+                </action>
+                <action id="-1" name="Set X" sid="2729350231157178" type="cooltext27">
+                    <param id="0" name="X">86</param>
+                </action>
+                <action id="-2" name="Set Y" sid="9096091163506263" type="cooltext27">
+                    <param id="0" name="Y">58</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

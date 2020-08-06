@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 3</name>
+    <events>
+        <event-block sid="1101967082327631">
+            <conditions>
+                <condition id="0" name="On clicked" sid="6888256565587338" type="Button2" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6401698497529046" type="System">
+                    <param id="0" name="Layout">Layout 2</param>
+                </action>
+                <action id="0" name="Play" sid="2109861634866704" type="Audio">
+                    <param id="0" name="Audio file">Two_and_Fourmelo1PSG</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;opening&quot;</param>
+                </action>
+                <action id="6" name="Stop" sid="4732467241589381" type="Audio">
+                    <param id="0" name="Tag">&quot;ending&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="2186723111676624" type="System">
+                    <param id="0" name="Variable">SCORE</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3678457847328409">
+            <conditions>
+                <condition id="-18" name="On created" sid="5562689202909423" type="Button2" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="433146933800897" type="Audio">
+                    <param id="0" name="Audio file">Icy_Game_Over</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;ending&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="4272281136233508" type="Text">
+                    <param id="0" name="Text">SCORE</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2135351981973786">
+            <conditions>
+                <condition id="0" name="On clicked" sid="9207608315947142" type="Tuto" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8576899250608916" type="System">
+                    <param id="0" name="Layout">Layout 4</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

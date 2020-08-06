@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="3">Layout 2</layout>
+        <layout order="1">Layout 1</layout>
+        <layout order="5">Layout 4</layout>
+        <layout order="6">Layout 3</layout>
+        <layout active="1" order="7">Layout 5</layout>
+        <event-sheet order="0">Event sheet 2</event-sheet>
+        <event-sheet order="2">Event sheet 1</event-sheet>
+        <event-sheet order="4">Event sheet 3</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="0" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/background/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/bird/" />
+        <folder expanded="1" path="animation-folder/bird2/" />
+        <folder expanded="1" path="animation-folder/bird3/" />
+        <folder expanded="1" path="animation-folder/FondodepantallaRetroconsole/" />
+        <folder expanded="1" path="animation-folder/V/" />
+        <folder expanded="1" path="animation-folder/V2/" />
+        <folder expanded="1" path="animation-folder/tubo/" />
+        <folder expanded="1" path="animation-folder/destruccionxdxd/" />
+        <folder expanded="1" path="animation-folder/xd/" />
+        <folder expanded="1" path="animation-folder/tubo2/" />
+        <folder expanded="1" path="animation-folder/FondodepantallaRetroconsole2/" />
+        <folder expanded="1" path="animation-folder/cooltext/" />
+        <folder expanded="1" path="animation-folder/Venezuelaball_Dross/" />
+        <folder expanded="1" path="animation-folder/USABALL/" />
+        <folder expanded="1" path="animation-folder/CoolTextFlappyCol/" />
+        <folder expanded="1" path="animation-folder/cooltext2/" />
+        <folder expanded="1" path="animation-folder/cooltext3/" />
+        <folder expanded="1" path="animation-folder/cooltext4/" />
+        <folder expanded="1" path="animation-folder/cooltext5/" />
+        <folder expanded="1" path="animation-folder/Chinaball/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/cooltext6/" />
+        <folder expanded="1" path="animation-folder/huehuehue/" />
+        <folder expanded="1" path="animation-folder/bird4/" />
+        <folder expanded="1" path="animation-folder/Explosion/" />
+        <folder expanded="1" path="animation-folder/Explosion2/" />
+        <folder expanded="1" path="animation-folder/oscuridad/" />
+        <folder expanded="1" path="animation-folder/llora/" />
+        <folder expanded="1" path="animation-folder/aperturavideojuegosgameover/" />
+        <folder expanded="1" path="animation-folder/llora2/" />
+        <folder expanded="1" path="animation-folder/cooltext7/" />
+        <folder expanded="1" path="animation-folder/oscuridad2/" />
+        <folder expanded="1" path="animation-folder/llora3/" />
+        <folder expanded="1" path="animation-folder/aperturavideojuegosgameover2/" />
+        <folder expanded="1" path="animation-folder/cooltext8/" />
+        <folder expanded="1" path="animation-folder/cooltext9/" />
+        <folder expanded="1" path="animation-folder/cooltext10/" />
+        <folder expanded="1" path="animation-folder/cooltext11/" />
+        <folder expanded="1" path="animation-folder/NzMB/" />
+        <folder expanded="1" path="animation-folder/cooltext12/" />
+        <folder expanded="1" path="animation-folder/cooltext13/" />
+        <folder expanded="1" path="animation-folder/cooltext14/" />
+        <folder expanded="1" path="animation-folder/cooltext15/" />
+        <folder expanded="1" path="animation-folder/cooltext16/" />
+        <folder expanded="1" path="animation-folder/cooltext17/" />
+        <folder expanded="1" path="animation-folder/cooltext18/" />
+        <folder expanded="1" path="animation-folder/cooltext19/" />
+        <folder expanded="1" path="animation-folder/cooltext20/" />
+        <folder expanded="1" path="animation-folder/eeuu/" />
+        <folder expanded="1" path="animation-folder/cooltext21/" />
+        <folder expanded="1" path="animation-folder/cooltext22/" />
+        <folder expanded="1" path="animation-folder/cooltext23/" />
+        <folder expanded="1" path="animation-folder/cooltext24/" />
+        <folder expanded="1" path="animation-folder/paisaje/" />
+        <folder expanded="1" path="animation-folder/cooltext25/" />
+        <folder expanded="1" path="animation-folder/cooltext26/" />
+        <folder expanded="1" path="animation-folder/cooltext27/" />
+        <folder expanded="1" path="animation-folder/cooltext28/" />
+        <folder expanded="1" path="animation-folder/cooltext29/" />
+        <folder expanded="1" path="animation-folder/cooltext30/" />
+    </folders-expanded>
+</c2uistate>

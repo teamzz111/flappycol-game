@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="6292344954278081">
+            <conditions>
+                <condition id="0" name="On clicked" sid="4647509650937216" type="JugarColombia" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="2743401273759304" type="System">
+                    <param id="0" name="Layout">Layout 2</param>
+                </action>
+                <action id="-9" name="Set value" sid="6474600125005107" type="System">
+                    <param id="0" name="Variable">SCORE</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="5904815728334311" type="System">
+                    <param id="0" name="Variable">OBSTACULO</param>
+                    <param id="1" name="Value">1.5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1451288123843729">
+            <conditions>
+                <condition id="-18" name="On created" sid="5737681913763661" type="JugarColombia" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="299907841384634" type="Audio">
+                    <param id="0" name="Audio file">Two_and_Fourmelo1PSG</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;opening&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7094039755715239">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="7172367511190702" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="7019886661397977" type="bird4">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="4438503193002749" type="Chinaball">
+                    <param id="0" name="Animation">&quot;China&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="8353651033971718" type="USABALL">
+                    <param id="0" name="Animation">&quot;eeuu&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="286211935249551" type="Explosion2">
+                    <param id="0" name="Animation">&quot;explosion&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="9659736109295573" type="Venezuelaball_Dross">
+                    <param id="0" name="Animation">&quot;ven&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="5462636722906748" type="cooltext10">
+                    <param id="0" name="Animation">&quot;letras&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="7966391606824937" type="cooltext11">
+                    <param id="0" name="Animation">&quot;letras2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="7966131024788676" type="eeuu">
+                    <param id="0" name="Animation">&quot;eeuu&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="6" name="Stop" sid="2593036044566789" type="Audio">
+                    <param id="0" name="Tag">&quot;ending2&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1528783003785234">
+            <conditions>
+                <condition id="0" name="On clicked" sid="6127670246526159" type="ComoJugar" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="3195241817347363" type="System">
+                    <param id="0" name="Layout">Layout 4</param>
+                </action>
+                <action id="6" name="Stop" sid="8719035086573928" type="Audio">
+                    <param id="0" name="Tag">&quot;opening&quot;</param>
+                </action>
+                <action id="4" name="Preload" sid="1487128804026148" type="Audio">
+                    <param id="0" name="Audio file">destoroya</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

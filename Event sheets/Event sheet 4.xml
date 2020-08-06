@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 4</name>
+    <events>
+        <event-block sid="412095621692978">
+            <conditions>
+                <condition id="0" name="On clicked" sid="8863033122550282" type="Regresar" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="963162071294046" type="System">
+                    <param id="0" name="Layout">Layout 1</param>
+                </action>
+                <action id="33" name="Stop all" sid="8090115047567103" type="Audio" />
+            </actions>
+        </event-block>
+        <event-block sid="855119142052477">
+            <conditions>
+                <condition id="-18" name="On created" sid="4055996106618301" type="Regresar" />
+            </conditions>
+            <actions>
+                <action id="33" name="Stop all" sid="6506821520322" type="Audio" />
+                <action id="0" name="Play" sid="7904086751912028" type="Audio">
+                    <param id="0" name="Audio file">destoroya</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
