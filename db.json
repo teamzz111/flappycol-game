@@ -17,7 +17,7 @@
     "photo": "80142445969_01.svg"
   }, {
     "id": 3,
-    "color": "ffffff",
+    "color": "FFFFFF",
     "name": "Nombre del producto",
     "subcategory": "fashion",
     "price": 234000,
@@ -49,7 +49,7 @@
     "photo": "80212454645_01.svg"
   }, {
     "id": 7,
-    "color": "ffffff",
+    "color": "FFFFFF",
     "name": "Nombre del producto",
     "subcategory": "fashion",
     "price": 199398,
@@ -57,7 +57,7 @@
     "photo": "80222445947_01.svg"
   }, {
     "id": 8,
-    "color": "ffffff",
+    "color": "FFFFFF",
     "name": "Nombre del producto",
     "subcategory": "fashion",
     "price": 176000,
@@ -105,7 +105,7 @@
     "photo": "emergency_tiretote_231.svg"
   },{
     "id": 14,
-    "color": "ffffff",
+    "color": "FFFFFF",
     "name": "Nombre del producto",
     "subcategory": "electronics",
     "price": 1030000,
