@@ -1,7 +1,7 @@
 {
   "products": [{
     "id": 1,
-    "color": "#56CCF2",
+    "color": "56CCF2",
     "name": "Nombre del producto",
     "subcategory": "fashion",
     "price": 1993000,
@@ -9,7 +9,7 @@
     "photo": "80142445932_02.svg"
   }, {
     "id": 2,
-    "color": "#2F80ED",
+    "color": "2F80ED",
     "name": "Nombre del producto",
     "subcategory": "fashion",
     "price": 13000,
@@ -17,7 +17,7 @@
     "photo": "80142445969_01.svg"
   }, {
     "id": 3,
-    "color": "#ffffff",
+    "color": "ffffff",
     "name": "Nombre del producto",
     "subcategory": "fashion",
     "price": 234000,
@@ -25,7 +25,7 @@
     "photo": "80142446347_01.svg"
   }, {
     "id": 4,
-    "color": "#333333",
+    "color": "333333",
     "name": "Nombre del producto",
     "subcategory": "fashion",
     "price": 1993000,
@@ -33,7 +33,7 @@
     "photo": "80142446411_01.svg"
   }, {
     "id": 5,
-    "color": "#333333",
+    "color": "333333",
     "name": "Nombre del producto",
     "subcategory": "fashion",
     "price": 1993000,
@@ -41,7 +41,7 @@
     "photo": "80212454645_01.svg"
   }, {
     "id": 6,
-    "color": "#333333",
+    "color": "333333",
     "name": "Nombre del producto",
     "subcategory": "miscellaneous",
     "price": 293000,
@@ -49,7 +49,7 @@
     "photo": "80212454645_01.svg"
   }, {
     "id": 7,
-    "color": "#ffffff",
+    "color": "ffffff",
     "name": "Nombre del producto",
     "subcategory": "fashion",
     "price": 199398,
@@ -57,7 +57,7 @@
     "photo": "80222445947_01.svg"
   }, {
     "id": 8,
-    "color": "#ffffff",
+    "color": "ffffff",
     "name": "Nombre del producto",
     "subcategory": "fashion",
     "price": 176000,
@@ -65,7 +65,7 @@
     "photo": "80222446389_01.svg"
   }, {
     "id": 9,
-    "color": "#F2994A",
+    "color": "F2994A",
     "name": "Nombre del producto",
     "subcategory": "miscellaneous",
     "price": 1993000,
@@ -73,7 +73,7 @@
     "photo": "80432406146_01.svg"
   },{
     "id": 10,
-    "color": "#F2994A",
+    "color": "F2994A",
     "name": "Nombre del producto",
     "subcategory": "collectable",
     "price": 543400,
@@ -81,7 +81,7 @@
     "photo": "80432406146_01.svg"
   },{
     "id": 11,
-    "color": "#F2994A",
+    "color": "F2994A",
     "name": "Nombre del producto",
     "subcategory": "vehicle",
     "price": 199300,
@@ -89,7 +89,7 @@
     "photo": "36108090192_01.svg"
   },{
     "id": 12,
-    "color": "#333333",
+    "color": "333333",
     "name": "Nombre del producto",
     "subcategory": "vehicle",
     "price": 193000,
@@ -97,7 +97,7 @@
     "photo": "roundel-cap_623.svg"
   },{
     "id": 13,
-    "color": "#F2994A",
+    "color": "F2994A",
     "name": "Nombre del producto",
     "subcategory": "vehicle",
     "price": 193000,
@@ -105,7 +105,7 @@
     "photo": "emergency_tiretote_231.svg"
   },{
     "id": 14,
-    "color": "#ffffff",
+    "color": "ffffff",
     "name": "Nombre del producto",
     "subcategory": "electronics",
     "price": 1030000,
@@ -113,7 +113,7 @@
     "photo": "Vehicle_Z4_Saf_ElectronicPressureGauge.svg"
   },{
     "id": 15,
-    "color": "#C4C4C4",
+    "color": "C4C4C4",
     "name": "Nombre del producto",
     "subcategory": "electronics",
     "price": 1830000,
@@ -121,7 +121,7 @@
     "photo": "Vehicle_Z4_Saf_MechanicalTireGauge.svg"
   }, {
     "id": 16,
-    "color": "#C4C4C4",
+    "color": "C4C4C4",
     "name": "Nombre del producto",
     "subcategory": "electronics",
     "price": 130000,
@@ -129,7 +129,7 @@
     "photo": "m-cap_3283.svg"
   }, {
     "id": 17,
-    "color": "#27AE60",
+    "color": "27AE60",
     "name": "Nombre del producto",
     "subcategory": "vehicle",
     "price": 190000,
